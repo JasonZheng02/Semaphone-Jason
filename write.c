@@ -1,4 +1,4 @@
-#include "control.h"
+#include "control_func.h"
 
 int main() {
     int semd = semget(KEY_SEM, 1, 0);
