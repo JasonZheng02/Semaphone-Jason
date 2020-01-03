@@ -1,4 +1,4 @@
-#include "control.h"
+#include "control_func.h"
 
 int main(int argc, char * argv[]) {
     if (argc > 1) {
@@ -30,7 +30,7 @@ int main(int argc, char * argv[]) {
         }
     }
     else{
-        printf("Please attach one of the 3 tags [-c, -r, -v]\n" );
+        printf("Include -c, -r, or -v\n" );
     }
 
     return 0;

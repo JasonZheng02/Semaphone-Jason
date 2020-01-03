@@ -1,4 +1,4 @@
-#include "control.h"
+#include "control_func.h"
 
 int create_semaphore() {
     int v, r;
@@ -36,7 +36,7 @@ int remove_file(char * name) {
     if (remove(name) == 0) {
         printf("file removed\n");
     } else {
-        printf("File not removed\n");
+        printf("file not removed\n");
     }
     return 0;
 }
